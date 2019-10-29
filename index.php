@@ -7,6 +7,6 @@
     <h1>Dainų tekstai</h1>
     <h2>Paragrafo Tekstai</h2>
     <p>Aš toks vienišas jaunas <br>paragrafas...</p>
-    <p>Mindau svetimo kodo gatves...</p>
+    <?php //<p>Mindau svetimo kodo gatves...</p> ?>
   </body>
 </html>
