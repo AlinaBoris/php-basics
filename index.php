@@ -1,12 +1,12 @@
-
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Aš valdau HTML <?php print 'ir PHP' ?>!</title>
+    <title><?php print 'Aš, '. date('l'). ' ir PHP' ?>!</title>
   </head>
   <body>
-    <h1><b>Alina</b> - HTML <?php print 'ir PHP' ?> asė!</h1>
-    <p>Moku kurti statinį turinį.<br>
-        Atydaryta: <?php print date('Y-m-d H:i:s') ?></p>
+    <h1><b>Alina</b> - HTML <?php print 'ir PHP '; ?> asė jau nuo <?php print date('Y'). ' metų' ?>!</h1>
+    <p>
+        Viskas prasidėjo <?php print date('m') . ' mėnesio, ' . date('d') . ' dieną!'; ?>
+    </p>
   </body>
 </html>
