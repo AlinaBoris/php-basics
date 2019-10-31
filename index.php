@@ -2,7 +2,7 @@
     $distance = rand(5, 350);
     $consumption = 7.5;
     $price = 1.3;
-    $fuel_total = round($distance * $consumption, 2);
+    $fuel_total = round($distance * $consumption / 100, 2);
     $price_trip = round($fuel_total * $price, 2);
     
     
