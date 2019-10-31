@@ -1,12 +1,20 @@
+<?php 
+    $string = 'Whatever random text.';
+    $int = 999;
+    $bool = true;
+    $null = null;
+?>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Komentarai</title>
+    <title></title>
   </head>
   <body>
-    <h1>Dainų tekstai</h1>
-    <h2>Paragrafo Tekstai</h2>
-    <p>Aš toks vienišas jaunas <br>paragrafas...</p>
-    <?php //<p>Mindau svetimo kodo gatves...</p> ?>
+      <ul>
+          <li><?php print $string;?></li>
+          <li><?php print $int;?></li>
+          <li><?php print $bool;?></li>
+          <li><?php print $null;?></li>
+      </ul>
   </body>
 </html>
