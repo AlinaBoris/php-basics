@@ -1,13 +1,15 @@
 <?php 
-    $bin_vol = 40;
-    $bin_heap_vol = rand(5, 40);
-    $trash_per_day = 15;
-    $days = floor(($bin_vol + $bin_heap_vol)/$trash_per_day);
+    $distance = rand(5, 350);
+    $consumption = 7.5;
+    $price = 1.3;
+    $fuel_total = round($distance * $consumption, 2);
+    $price_trip = round($fuel_total * $price, 2);
     
-    $h1 = 'Šiukšlių prognozė';
-    $p_1 = "Turima šiukšlinė - $bin_vol litrų.";
-    $p_2 = "Žmona nieko nesako, kol kaupas neviršija $bin_heap_vol litrų.";
-    $h3 = "Išvada: Nieko nedarysiu $days dienų.";
+    
+    $h1 = 'Kelionės skaičiuoklė';
+    $li_1 = "Nuvažiouta distancija: $distance.";
+    $li_2 = "Sunaudota $fuel_total l. kuro.";
+    $li_3 = "Kaina: $price_trip pinigų.";
 ?>
 <html lang="en" dir="ltr">
   <head>
@@ -15,9 +17,11 @@
     <title>Task</title>
   </head>
   <body>
-      <h1><?php print $h1?></h1>
-      <p><?php print $p_1?></p>
-      <p><?php print $p_2?></p>
-      <p><?php print $h3?></p>
+      <h1><?php print $h1;?></h1>
+      <ul>
+          <li><?php print $li_1;?></li>
+          <li><?php print $li_2;?></li>
+          <li><?php print $li_3;?></li>
+      </ul>
   </body>
 </html>
