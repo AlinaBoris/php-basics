@@ -1,51 +1,29 @@
 <?php
-$bowling = [
+$road = [
     [
-        'juosta' => 'svari',
-        'kegliai' => [
-            [
-                1 => 1,
-            ],
-            [
-                1 => 0,
-                2 => 1,
-            ],
-            [
-                1 => 0,
-                2 => 0,
-                3 => 1,
-            ],
-            [
-                1 => 1,
-                2 => 0,
-                3 => 0,
-                4 => 1,
-            ],
-        ],
+        'direction' => 'i desine',
+        'degree' => 90,
     ],
     [
-        'juosta' => 'murzina',
-        'kegliai' => [
-            [
-                1 => 0,
-            ],
-            [
-                1 => 0,
-                2 => 0,
-            ],
-            [
-                1 => 0,
-                2 => 0,
-               3 => 0,
-            ],
-            [
-                1 => 0,
-                2 => 0,
-                3 => 0,
-                4 => 0,
-            ],
-        ],
+        'direction' => 'i kaire',
+        'degree' => 15,
+    ],
+    [
+        'direction' => 'i desine',
+        'degree' => 270,
+    ],
+    [
+        'direction' => 'i kaire',
+        'degree' => 270,
+    ],
+    [
+        'direction' => 'i desine',
+        'degree' => 320,
+    ],
+    [
+        'direction' => 'i desine',
+        'degree' => 90,
     ],
 ];
 
-var_dump($bowling);
+var_dump($road);
