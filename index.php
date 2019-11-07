@@ -1,42 +1,53 @@
 <?php
-$box = [
+$bowling = [
     [
         [
-            'name' => 'Kiausiniai',
-            'quantity' => 3,
+            'juosta' => 'svarus',
+            'kegliai' => [
+                'row_1' => [
+                    1 => 'Nenumustas',
+                ],
+                'row_2' => [
+                    1 => 'Numustas',
+                    2 => 'Nenumustas',
+                ],
+                'row_3' => [
+                    1 => 'Numustas',
+                    2 => 'Numustas',
+                    3 => 'Nenumustas',
+                ],
+                'row_4' => [
+                    1 => 'Nenumustas',
+                    2 => 'Numustas',
+                    3 => 'Numustas',
+                    4 => 'Nenumustas',
+                ],
+            ],
         ],
-        [
-            'name' => 'Grietine',
-            'quantity' => 1,
-        ],
-        [
-            'name' => 'Jogurtas',
-            'quantity' => 1,
-        ,
-        [
-            'name' => 'Zuvis',
-            'quantity' => 0,
-        ]
     ],
-    [
         [
-            'name' => 'Pienas',
-            'quantity' => 1,
+            'juosta' => 'murzina',
+            'kegliai' => [
+                'row_1' => [
+                    1 => 'Numusta',
+                ],
+                'row_2' => [
+                    1 => 'Numustas',
+                    2 => 'Numusta',
+                ],
+                'row_3' => [
+                    1 => 'Numustas',
+                    2 => 'Numustas',
+                    3 => 'Numusta',
+                ],
+                'row_4' => [
+                    1 => 'Numusta',
+                    2 => 'Numustas',
+                    3 => 'Numustas',
+                    4 => 'Numusta',
+                ],
+            ],
         ],
-        [
-            'name' => 'Kefyras',
-            'quantity' => 0,
-        ],
-        [
-            'name' => 'Degtine',
-            'quantity' => 2,
-        ],
-        [
-            'name' => 'Keciupas',
-            'quantity' => 2,
-        ]
-    ]
-    ]   
-]; 
+];
 
-var_dump($product);
+var_dump($bowling);
