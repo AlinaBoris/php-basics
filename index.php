@@ -2,25 +2,25 @@
 $bowling = [
     [
         [
-            'juosta' => 'svarus',
+            'juosta' => 'svari',
             'kegliai' => [
-                'row_1' => [
-                    1 => 'Nenumustas',
+                [
+                    1 => 1,
                 ],
-                'row_2' => [
-                    1 => 'Numustas',
-                    2 => 'Nenumustas',
+                [
+                    1 => 0,
+                    2 => 1,
                 ],
-                'row_3' => [
-                    1 => 'Numustas',
-                    2 => 'Numustas',
-                    3 => 'Nenumustas',
+                [
+                    1 => 0,
+                    2 => 0,
+                    3 => 1,
                 ],
-                'row_4' => [
-                    1 => 'Nenumustas',
-                    2 => 'Numustas',
-                    3 => 'Numustas',
-                    4 => 'Nenumustas',
+                [
+                    1 => 1,
+                    2 => 0,
+                    3 => 0,
+                    4 => 1,
                 ],
             ],
         ],
@@ -28,23 +28,23 @@ $bowling = [
         [
             'juosta' => 'murzina',
             'kegliai' => [
-                'row_1' => [
-                    1 => 'Numusta',
+                [
+                    1 => 0,
                 ],
-                'row_2' => [
-                    1 => 'Numustas',
-                    2 => 'Numusta',
+                [
+                    1 => 0,
+                    2 => 0,
                 ],
-                'row_3' => [
-                    1 => 'Numustas',
-                    2 => 'Numustas',
-                    3 => 'Numusta',
+                [
+                    1 => 0,
+                    2 => 0,
+                    3 => 0,
                 ],
-                'row_4' => [
-                    1 => 'Numusta',
-                    2 => 'Numustas',
-                    3 => 'Numustas',
-                    4 => 'Numusta',
+                [
+                    1 => 0,
+                    2 => 0,
+                    3 => 0,
+                    4 => 0,
                 ],
             ],
         ],
